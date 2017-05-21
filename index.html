@@ -22,6 +22,8 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,6 +58,9 @@
                         <a class="page-scroll" href="#headshots">Headshots</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#production_photos">Production Photos</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
@@ -78,7 +83,7 @@
                 <div class="row">
 <!--                     <div class="col-md-offset-2">
  -->                    <div class="col-md-offset-2 col-lg-8 col-md-offset-2 ">
-                        <img src=img/kayla_curly_small.jpg width="90%">
+                        <img src="img/kayla_curly_small.jpg" width="80%">
 <!--                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a> -->
@@ -88,28 +93,65 @@
         </div>
     </header>
 
-    <!-- About Section -->
+    <!-- Headshots Section -->
     <section id="headshots" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <img src="img/kayla.jpg" width="70%">
-                <br><br>
-                <img src="img/kayla_yellow_small.jpg" width="70%">
+                <img src="img/kayla_yellow_small.jpg" width="80%">
+<!--                 <img src="img/kayla.jpg" width="80%">
+ -->                <br><br>
             </div>
         </div>
     </section>
+
+
+    <!-- Headshots Section -->
+    <section id="production_photos" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+            <h2>Production Photos</h2>
+
+            <div id="links" hidden>
+                <a href="img/prod1.jpg" title="">
+                    <img src="img/prod1.jpg" alt="">
+                </a>
+                <a href="img/prod2.jpg" title="">
+                    <img src="img/prod2.jpg" alt="">
+                </a>
+                <a href="img/prod3.jpg" title="">
+                    <img src="img/prod3.jpg" alt="">
+                </a>
+                <a href="img/prod4.jpg" title="">
+                    <img src="img/prod4.jpg" alt="">
+                </a>
+            </div>
+            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About KGRIFS</h2>
-                <p>This is some text that describes Kayla. It probably runs on for a little while and mentions her many talents and capabilities. Talents that are fire emoji.
-                There would probably be a lot of text and it would be good text and not just this placeholder because frankly lorem ipsum is dull and my stream-of-consciousness lacks adequate verbiage to speak to her greatness. Maybe there are words like #slayyyy but really isn't that too far? Will she have a tru #senior #stunt? If so, what would it be?
+                <h2>About Kayla</h2>
+                <p>Kayla Griffith is a Chicago-area actress. A soon-to-be graduate of Northwestern University's Theatre program, she loves acting for both the stage and screen. When not playing make-believe for a living, she can be found in the dance studio, browsing her local farmer's market, or saving memes to her phone. She maintains that even the largest and oldest of dogs can be called a "puppy".
                 </p>
+                <p class="centered-text"><a href="img/kayla_griffith_resume.pdf" download><img width="30%" src="img/kayla_griffith_resume_thumb.jpg"><br>Download Resume</a></p>
+                <p class="centered-text"><a href="img/kayla_griffith_headshots.zip" download><img width="30%" src="img/kayla_curly_small_thumb.jpg">  <img width="30%" src="img/kayla_yellow_small_thumb.jpg"><br>Download Headshots</a></p>
+
             </div>
         </div>
-                        <br><br><br><br><br><br>
+                        <br><br><br><br>
 
     </section>
 
@@ -119,7 +161,7 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>HIRE HER FOR MAKING #ART</h2>
+                    <h2>Check her out in action</h2>
                     <iframe width="100%" height="450px" src="https://www.youtube.com/embed/RsNVtdUJsQs" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -132,11 +174,13 @@
 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Kayla Griffith</h2>
-                <p>No part is too big or too small.</p>
-                <p><a href="mailto:feedback@startbootstrap.com">an email address would b solid</a>
+                <h2>Contact Kayla</h2>
+                <p><a href="mailto:kgriffithacting@gmail.com">Email kgriffithacting@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/kgriffithacting" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
                     <li>
                         <a href="https://twitter.com/kgriffithacting" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
@@ -152,13 +196,6 @@
         <br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
 
-    <!-- Footer -->
-<!--     <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
-        </div>
-    </footer> -->
-
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
 
@@ -168,11 +205,31 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+
+    // <script>
+    // document.getElementById('links').onclick = function (event) {
+    //     event = event || window.event;
+    //     var target = event.target || event.srcElement,
+    //         link = target.src ? target.parentNode : target,
+    //         options = {index: link, event: event},
+    //         links = this.getElementsByTagName('a');
+    // blueimp.Gallery(links, options);
+    // };
+    // </script>
+
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
 
 </body>
 
